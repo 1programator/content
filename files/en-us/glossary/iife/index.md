@@ -71,8 +71,8 @@ console.log(firstAccount.withdraw(20)); // 80
 console.log(firstAccount.withdraw(30)); // 50
 console.log(firstAccount.doBadThings); // undefined, this method is private
 const secondAccount = makeWithdraw(20); // "I will do bad things with your money"
-secondAccount.withdraw(30); // "Insufficient money"
-secondAccount.withdraw(20);  // 0
+console.log(secondAccount.withdraw(30)); // "Insufficient money"
+console.log(secondAccount.withdraw(20));  // 0
 ```
 
 ### For loop with var before ES6
